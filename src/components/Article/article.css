@@ -1,41 +1,5 @@
-body{
-    border-left : 5px solid  lightgray;
-    min-height: 100vh;
-    font-family: sans-serif;    
-    max-width: 1000px;
-    margin: auto;
-}
-
-header,main,footer{
-    padding: 1rem 2rem;    
-}
-
-h1{
-    color: tomato;
-}
-
 img{
     width: 100%;
-}
-
-ul{
-    list-style: none
-}
-
-.topNavigation{
-    display: flex;
-    justify-content: space-between;    
-}
-.topNavigation a{
-    color: lightgray;
-}
-
-.bottomNavigation{
-    display: flex;    
-    justify-content: space-between;
-}
-.bottomNavigation a {
-    color: tomato;    
 }
 
 article{
@@ -48,12 +12,10 @@ article h2{
     font-size:xx-large;
 }
 
-.articleCont{
-    text-align: end;
-}
 .articleCont a{
     color: tomato;
     font-weight: bold;        
+    float: inline-end;
 }
 
 article p::first-letter{
@@ -61,9 +23,4 @@ article p::first-letter{
     font-size: 5em;
     float: left; 
     line-height: 1;    
-}
-
-
-footer p {
-    color: lightgray;
 }
