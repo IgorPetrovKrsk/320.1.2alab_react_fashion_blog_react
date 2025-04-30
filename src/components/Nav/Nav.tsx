@@ -1,5 +1,5 @@
 import './nav.css'
-import topNavigationLinks from "./topNavigationLinks"
+import topNavigationLinks from "./navigationLinks"
 
 export default function Nav() {
 

@@ -1,0 +1,11 @@
+.bottomNavigation{
+    display: flex;    
+    justify-content: space-between;
+}
+.bottomNavigation a {
+    color: tomato;    
+}
+
+.footer {
+    color: lightgray;
+}
